@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "811277948783",
+    "project_id": "quickrecipe-deea9",
+    "storage_bucket": "quickrecipe-deea9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:811277948783:android:35a0e3a9fe13be8a883a9a",
+        "android_client_info": {
+          "package_name": "com.quick.recipe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "811277948783-f9rof8fo3or66hln3hg0c533voa8hg9s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.quick.recipe",
+            "certificate_hash": "26320e13e1599bfc1a5bb444bc0252108cb983c0"
+          }
+        },
+        {
+          "client_id": "811277948783-vn3dvr2sb1vgeh3c5dd5bupqqslbbt4b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa6lr7QglpNyguyaAk7v5mjJhSUdrpUsU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "811277948783-vn3dvr2sb1vgeh3c5dd5bupqqslbbt4b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

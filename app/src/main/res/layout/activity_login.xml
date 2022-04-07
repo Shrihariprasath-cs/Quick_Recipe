@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+  <FrameLayout
+      android:id="@+id/frame_layout"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:scaleType="centerCrop"
+          android:src="@drawable/splashback"></ImageView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/loginback"
+        android:orientation="vertical">
+    </LinearLayout>
+
+  </FrameLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:layout_marginTop="300dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:textSize="24sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="25dp"
+        android:text="Enter your login credentials \n to get access: "
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="#2F4858"
+        android:fontFamily="@font/nunitor"
+        />
+
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/editbox"
+        android:focusableInTouchMode="true"
+        android:gravity="left|center"
+        android:hint="Enter your email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="#6E6E6E"
+        android:textColorHint="#ACABAB"
+        android:textSize="16sp"
+        android:theme="@style/MyEditText" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/editbox"
+        android:focusableInTouchMode="true"
+        android:gravity="left|center"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="#6E6E6E"
+        android:textColorHint="#ACABAB"
+        android:textSize="16sp"
+        android:theme="@style/MyEditText" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/loginbutton"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="55dp"
+        android:layout_marginTop="25dp"
+        android:text="SIGN IN"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_splash"
+        android:visibility="visible"
+        android:gravity="center"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/resetPwTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:textSize="17sp"
+        android:layout_gravity="right"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="30dp"
+        android:text="Forgot Password"
+        android:textColor="#ff6900"
+        android:fontFamily="@font/nunitosb" />
+
+
+  </LinearLayout>
+
+
+  <TextView
+      android:id="@+id/createAccTextView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_centerInParent="true"
+      android:layout_marginLeft="15dp"
+      android:layout_marginTop="30dp"
+      android:layout_marginRight="15dp"
+      android:layout_marginBottom="30dp"
+      android:fontFamily="@font/nunitor"
+      android:text="If you have an account just"
+      android:textColor="#2F4858"
+      android:textSize="17sp" />
+
+</RelativeLayout>

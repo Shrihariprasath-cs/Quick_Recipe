@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:id="@+id/card_select"
+    android:background="@drawable/splashback"
+    android:layout_height="wrap_content">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/cocktailImage"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/placeholder" />
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_below="@+id/cocktailImage"
+    android:layout_height="wrap_content">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Name"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/nameTxt"
+            android:fontFamily="@font/creativevin"
+            android:textColor="#2F4858"
+
+            android:layout_alignParentLeft="true"
+            />
+
+            <com.skyhope.showmoretextview.ShowMoreTextView
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hi this the test message"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#2F4858"
+                android:fontFamily="@font/nunitor"
+                android:textSize="17sp" />
+
+            <LinearLayout
+                android:layout_margin="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#57D7F1C7"
+                android:orientation="vertical">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Ingredients"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginBottom="10dp"
+    android:textColor="@color/purple_500"
+    android:fontFamily="@font/nunitobo"
+    android:textSize="20sp">
+</TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_baseline_emergency_24"
+                        app:tint="@color/purple_500"></ImageView>
+
+                    <TextView
+                        android:id="@+id/ingred_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/nunitor"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="If you have an account just"
+                        android:textColor="#2F4858"
+                        android:textSize="17sp" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_baseline_emergency_24"
+                        app:tint="@color/purple_500"></ImageView>
+
+                    <TextView
+                        android:id="@+id/ingred_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/nunitor"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="If you have an account just"
+                        android:textColor="#2F4858"
+                        android:textSize="17sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_baseline_emergency_24"
+                        app:tint="@color/purple_500"></ImageView>
+
+                    <TextView
+                        android:id="@+id/ingred_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/nunitor"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="If you have an account just"
+                        android:textColor="#2F4858"
+                        android:textSize="17sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_baseline_emergency_24"
+                        app:tint="@color/purple_500"></ImageView>
+
+                    <TextView
+                        android:id="@+id/ingred_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/nunitor"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="If you have an account just"
+                        android:textColor="#2F4858"
+                        android:textSize="17sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_baseline_emergency_24"
+                        app:tint="@color/purple_500"></ImageView>
+
+                    <TextView
+                        android:id="@+id/ingred_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/nunitor"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="If you have an account just"
+                        android:textColor="#2F4858"
+                        android:textSize="17sp" />
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+</ScrollView>
+
+    </RelativeLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_margin="15dp"
+            android:id="@+id/back_arrow"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            app:tint="@color/white" />
+
+    </FrameLayout>
+
+</RelativeLayout>
